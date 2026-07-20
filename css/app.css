@@ -2827,6 +2827,10 @@ body::after {
   .reviews {
     gap: 1rem;
   }
+}@media (max-width: 86.0625em){
+  .service-hero__announce {
+    display: none;
+  }
 }@media (max-width: 85.5em){
   .hero__container {
     grid-template-columns: 70% 30%;
