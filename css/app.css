@@ -1311,6 +1311,7 @@ body::after {
 .ai-chat {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   min-height: 33.75rem;
   color: var(--ai-text);
 }
@@ -1692,7 +1693,7 @@ body::after {
 .ai-chat__body {
   overflow-y: auto;
   scroll-behavior: smooth;
-  max-height: 50vh;
+  max-height: 68vh;
   scrollbar-width: thin;
   scrollbar-color: #967437 transparent;
 }
@@ -2028,7 +2029,6 @@ body::after {
 .service-hero__title {
   font-weight: 800;
   line-height: 115%;
-  letter-spacing: -0.05625rem;
   text-transform: uppercase;
   margin-bottom: 0.625rem;
   padding-left: 0.3125rem;
